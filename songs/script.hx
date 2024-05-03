@@ -35,7 +35,6 @@ function doCustomBop(curBeat:Int) {
         case "gapple":
 
             if (curBeat % 2 == 0) {
-                trace("poopoo");
                 iconP1.scale.set(1.1 * Intensity, 0.8 * Intensity);
                 iconP2.scale.set(1.1 * Intensity, 1.3 * Intensity);
 
