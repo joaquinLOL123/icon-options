@@ -1,0 +1,19 @@
+<!DOCTYPE codename-mod-options>
+<!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
+<menu name="Icon options" desc="Options on how your icon bops or how it's placed">
+	<checkbox id="bopToggle" name="Enable bopping" desc="enables or disables icon bopping"/>
+
+	<choice id="bopType" name="Bop type" desc="what the bopping style for the icons should be">
+		<value name="Vanilla" value="vanilla"/> <!--doubt the value for this will be used at all LOL-->
+		<value name="Dave and Bambi" value="daveandbambi"/>
+		<value name="Golden Apple" value="gapple"/>
+	</choice>
+
+	<number id="bopIntensity" name="Bop intensity" min="0.5" max="1.5" change="0.1" desc="how intense the bopping should be"/>
+
+	<choice id="iconPlace" name="placement" desc="how the icons should be placed">
+		<value name="Vanilla" value="vanilla"/>
+		<value name="Ourple Guy" value="ourple"/>
+	</choice>
+
+</menu>
